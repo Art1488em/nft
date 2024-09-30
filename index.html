@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="wrap">
+          <div>
+            <h1>Rolling</h1>
+
+            <input placeholder="Search Rolling" type="text" />
+          </div>
+
+          <div>
+            <div class="links">
+              <a href="">Explore</a>
+              <a href="">Activity</a>
+              <a href="">Feed</a>
+              <a href="">Bids</a>
+            </div>
+
+            <img src="./img/Group 1.svg" alt="" />
+
+            <button id="open-btn" class="btn">Connect Wallet</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section1">
+      <div class="container">
+        <div class="wrap1">
+          <img class="img1" src="./img/Rectangle 2 (2).png" alt="" />
+
+          <div class="box1">
+            <h3>The circle's pristine cleanliness</h3>
+
+            <div class="user1">
+              <img src="./img/Ellipse 3.svg" alt="" />
+              <h4>Tung Tran</h4>
+            </div>
+
+            <div class="bid1">
+              <div class="current">
+                <h4>Current Bid</h4>
+                <h4>0.85 ETH</h4>
+                <p>$2,169.42</p>
+              </div>
+
+              <div class="ends-in">
+                <h4>Auction ends in</h4>
+
+                <div class="hours">
+                  <div class="hour1">
+                    <h3>3</h3>
+                    <p>Hours</p>
+                  </div>
+
+                  <div class="hour1">
+                    <h3>16</h3>
+                    <p>Minutes</p>
+                  </div>
+
+                  <div class="hour1">
+                    <h3>58</h3>
+                    <p>Seconds</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn1">Place a Bid</button>
+            <p class="p" href="">View Artwork</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="live">
+      <div class="container">
+        <div class="live__title">
+          <h2>Live auctions 🔥</h2>
+          <p>View all auctions</p>
+        </div>
+        <div class="live__wrapper"></div>
+      </div>
+    </section>
+
+    <section class="live2">
+      <div class="container">
+        <div class="live__title">
+          <h2>Featured ✨</h2>
+          <p>View all auctions</p>
+        </div>
+        <div class="live__wrapper2"></div>
+      </div>
+    </section>
+
+    <section class="top">
+      <div class="container">
+        <div class="live__title">
+          <h2>Top Creators</h2>
+          <p>View all</p>
+        </div>
+          <div class="live__wrapper3"></div>
+        <div class="top__wrapper">
+          
+        </div>
+      </div>
+    </section>
+
+
+
+<div class="modal" id="modal">
+  <div class="modal__box">
+    <h6 class="modal__close">x</h6>
+    <h2>свяжитесь с нами</h2>
+    <p>Если у вас появились какие то вопросы, можете заполнить анкету и связаться с нами</p>
+    <form id="telegramForm" action="">
+      <input id="name" placeholder="ваше имя" type="text">
+      <input id="phone" placeholder="ваш номер телефона" type="text">
+      <button class="btn">отправить заявку</button>
+    </form>
+    <h3 id="thanks"></h3>
+  </div>
+</div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
